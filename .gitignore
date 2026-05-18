@@ -1,0 +1,41 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+local_tests/
+
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.netrc
+.pypirc
+.npmrc
+
+# Virtual environments and local Python selectors
+.venv/
+venv/
+env/
+.python-version
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local runtime outputs
+cache/
+.huggingface/
+hf_home/
+.vllm/
+
+# Other files
+SALT_Benchmark_paper.pdf
+camera_ready.tex

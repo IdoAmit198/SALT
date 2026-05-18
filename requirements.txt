@@ -1,0 +1,17 @@
+# Core SALT dataset/task utilities
+datasets>=2.18
+numpy>=1.23
+regex>=2023.0
+sympy>=1.12
+
+# Development and notebook execution
+pytest>=7.0
+nbformat>=5.9
+nbconvert>=7.0
+ipykernel>=6.0
+ipywidgets>=8.0
+jupyterlab_widgets>=3.0
+
+# Regular vLLM generation notebook and utilities
+transformers==4.57.6
+vllm==0.19.1
